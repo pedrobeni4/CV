@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CV de pareja</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf5ef;--card:#fffdf9;--ink:#2b1d14;--muted:#7a6656;--accent:#a8552b;--line:#e8dccd;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1511;--card:#261d17;--ink:#f5ebe0;--muted:#b9a592;--accent:#e08a5b;--line:#3b2e25;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1c1511;--card:#261d17;--ink:#f5ebe0;--muted:#b9a592;--accent:#e08a5b;--line:#3b2e25;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:40px 20px 60px}
+header{text-align:center;padding:30px 0 10px}
+.tag{display:inline-block;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2rem,6vw,3.2rem);margin:.3em 0 .2em;line-height:1.15}
+.sub{color:var(--muted);max-width:520px;margin:0 auto}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;margin-top:22px}
+h2{font-family:'Playfair Display',Georgia,serif;font-size:1.35rem;margin:0 0 14px;color:var(--accent)}
+.row{display:flex;gap:14px;padding:10px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0}
+.row .k{min-width:120px;font-weight:600}
+.row .v{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.item{border:1px solid var(--line);border-radius:12px;padding:14px}
+.item b{display:block;margin-bottom:2px}
+.item span{color:var(--muted);font-size:.93rem}
+.quote{font-family:'Playfair Display',Georgia,serif;font-size:1.15rem;line-height:1.6}
+.cta{text-align:center}
+.cta h2{font-size:1.7rem;color:var(--ink)}
+.btns{position:relative;height:120px;margin-top:20px}
+button{font:inherit;font-weight:600;border:0;border-radius:999px;padding:12px 28px;cursor:pointer}
+#si{background:var(--accent);color:#fff;position:absolute;left:calc(50% - 110px);top:10px;font-size:1.1rem}
+#no{background:var(--line);color:var(--ink);position:absolute;left:calc(50% + 10px);top:10px}
+#res{display:none;margin-top:10px;font-size:1.1rem}
+footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:30px}
+@media(max-width:480px){.row{flex-direction:column;gap:2px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="tag">CV</span>
+  <h1>Pedro Benitez</h1>
+  <p class="sub">Te dije que no te arrepentirias</p>
+</header>
+
+<section>
+  <h2>Datos generales</h2>
+  <div class="row"><div class="k">Estatura</div><div class="v">1.90 m (sí alcanzo el estante de arriba)</div></div>
+  <div class="row"><div class="k">Estado actual</div><div class="v">Soltero por decisión, casi 3 años</div></div>
+  <div class="row"><div class="k">Movilidad</div><div class="v">Manejo, así que el plan siempre tiene cómo llegar</div></div>
+  <div class="row"><div class="k">Combustible</div><div class="v">Café y pan, en cualquier orden</div></div>
+</section>
+
+<section>
+  <h2>Objetivo</h2>
+  <p class="quote">Llevo casi tres años soltero, y no por falta de opciones sino por claridad: me tomé el tiempo de conocerme y hoy sé lo que quiero. No busco llenar un espacio, busco a alguien con quien sumar.</p>
+</section>
+
+<section>
+  <h2>Perfil y habilidades</h2>
+  <div class="grid">
+    <div class="item"><b>Trabajador</b><span>Tengo mis responsabilidades y las cumplo.</span></div>
+    <div class="item"><b>Siempre en crecimiento</b><span>Estudio y voy a clases de frances.</span></div>
+    <div class="item"><b>Independiente</b><span>Sé cuidarme solo, por eso elijo compañía, no la necesito.</span></div>
+    <div class="item"><b>Disciplinado</b><span>Hago ejercicio y cuido mi energía.</span></div>
+    <div class="item"><b>Tranquilo</b><span>No soy fiestero. Prefiero una buena plática y buena compañía.</span></div>
+    <div class="item"><b>Resolutivo</b><span>Siempre encuentro la manera de resolver.</span></div>
+    <div class="item"><b>Lector</b><span>Un libro y un café: mi plan favorito.</span></div>
+    <div class="item"><b>Buen gusto</b><span>Sé dónde está el mejor pan.</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Por qué deberíamos salir</h2>
+  <div class="row"><div class="k">01</div><div class="v">Sé lo que quiero, y no te voy a dejar con dudas.</div></div>
+  <div class="row"><div class="k">02</div><div class="v">Tengo mi vida en orden y ganas de compartirla.</div></div>
+  <div class="row"><div class="k">03</div><div class="v">Podemos hablar de libros, de idiomas o de nada, con café y pan de por medio.</div></div>
+  <div class="row"><div class="k">04</div><div class="v">Si algo sale mal en la cita, lo resuelvo. Es mi especialidad.</div></div>
+</section>
+
+
+
+<section class="cta">
+  <h2>¿Te gustaría salir conmigo?</h2>
+  <p class="sub">Un café, algo de pan y buena plática. Tú eliges el lugar.</p>
+  <div class="btns">
+    <button id="si">Sí, vamos</button>
+    <button id="no">No</button>
+  </div>
+  <div id="res">Perfecto! Escríbeme y ponemos fecha</div>
+</section>
+
+<footer></footer>
+</div>
+<script>
+(function(){
+  var no=document.getElementById('no'),si=document.getElementById('si'),box=no.parentNode,res=document.getElementById('res');
+  function run(){
+    var w=box.clientWidth-no.offsetWidth,h=box.clientHeight-no.offsetHeight;
+    no.style.left=Math.max(0,Math.random()*w)+'px';
+    no.style.top=Math.max(0,Math.random()*h)+'px';
+  }
+  no.addEventListener('mouseenter',run);
+  no.addEventListener('touchstart',function(e){e.preventDefault();run();},{passive:false});
+  no.addEventListener('click',run);
+  si.addEventListener('click',function(){
+    box.style.display='none';res.style.display='block';
+  });
+})();
+</script>
+</body>
+</html>
